@@ -2,12 +2,12 @@
 ## Build local
 ```
 cd /path/to/folder/contain/Dockerfile
-docker build -t yocto_docker_image .
+docker build -t docker_yocto_linux_6 .
 ```
 ## Get image from docker hub
 `docker pull hvbon2010/docker_yocto_linux_6:latest`
 
 # Build docker container
 ```
-./build_yocto_container.sh
+./docker_yocto_linux_6.sh
 ```
