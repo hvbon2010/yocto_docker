@@ -35,4 +35,4 @@ docker run --name $DOCKER_NAME -dit --privileged \
     -v $SSH_PATH:/home/$DOCKER_USER/.ssh:ro \
     -v $WORK_SPACE:/home/$DOCKER_USER/workspace \
     -v $QC_TOOLS:/pkg \
-    yocto_docker_image bash
+    hvbon2010/docker_yocto_linux_6:latest bash
