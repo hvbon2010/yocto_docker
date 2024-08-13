@@ -18,3 +18,5 @@ docker build -t hvbon2010/docker_yocto_linux_6:latest .
 We need to add a new release of this github repository.
 
 And the github action will be triggered to build and push docker image to docker hub with release tag.
+
+https://hub.docker.com/repository/docker/hvbon2010/docker_yocto_linux_6/general
