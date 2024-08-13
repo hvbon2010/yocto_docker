@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Script name: build_mdm9607_docker.sh
+# Script name: build_yocto_container.sh
 
 # Name of container
-DOCKER_NAME=build_mdm9607_linux6_$USER
+DOCKER_NAME=yocto_container_linux6_$USER
 
 # Username of host PC
 HOST_USER=$USER
