@@ -1,8 +1,11 @@
 # How to build yocto docker image
+## Build local
 ```
 cd /path/to/folder/contain/Dockerfile
 docker build -t yocto_docker_image .
 ```
+## Get image from docker hub
+`docker pull hvbon2010/docker_yocto_linux_6:latest`
 
 # Build docker container
 ```
