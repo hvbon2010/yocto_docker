@@ -13,3 +13,8 @@ docker build -t hvbon2010/docker_yocto_linux_6:latest .
 
 # Execute to the docker container
 `docker exec -it yocto_container_linux6_$USER bash`
+
+# How to release the new docker image to github docker
+We need to add a new release of this github repository.
+
+And the github action will be triggered to build and push docker image to docker hub with release tag.
