@@ -9,5 +9,5 @@ docker build -t docker_yocto_linux_6 .
 
 # Build docker container
 ```
-./docker_yocto_linux_6.sh
+./build_yocto_container.sh
 ```
