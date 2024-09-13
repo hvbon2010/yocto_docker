@@ -8,7 +8,7 @@ RUN apt-get update -y && apt-get upgrade -y && \
         u-boot-tools unzip zip gawk wget git git-lfs nano vim diffstat unzip \
         texinfo gcc build-essential chrpath socat cpio python3 python3-yaml python3-pip \
         python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 \
-        python3-subunit zstd liblz4-tool file locales libacl1 whiptail qemu && \
+        python3-subunit zstd liblz4-tool file locales libacl1 whiptail qemu boxes && \
     rm -rf /var/lib/apt-lists/* && \
     echo "dash dash/sh boolean false" | debconf-set-selections && \
     dpkg-reconfigure dash
