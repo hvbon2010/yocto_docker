@@ -27,7 +27,6 @@ RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 
 # Repo tool
 RUN curl https://storage.googleapis.com/git-repo-downloads/repo > /bin/repo && chmod a+x /bin/repo
-RUN sed -i "1s/python/python3/" /bin/repo
 
 # Setup user account
 RUN groupadd user -g 1000
